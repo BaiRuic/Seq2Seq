@@ -76,6 +76,8 @@ class Train():
         print("Loading model and optimizer state")
         self.model.load_state_dict(torch.load(filename)['model'])
         self.optimizer.load_state_dict(torch.load(filename)['optimizer'])
+        self.train_loss = torch.load(filename)['train_loss']
+        self.valid_loss = torch.load(filename)['valid_loss']
 
     def _train(self):
         '''
@@ -168,7 +170,10 @@ class Train():
                 # 保存最好的模型
                 if best_valid_loss > valid_loss:
                     best_valid_loss = valid_loss
-                    my_state = {'model':self.model.state_dict(), "optimizer":self.optimizer.state_dict()}
+                    my_state = {'model':self.model.state_dict(), 
+                                "optimizer":self.optimizer.state_dict(), 
+                                "train_loss":self.train_loss, 
+                                "valid_loss":self.valid_loss}
                     self.save_state(state=my_state)
                 
                 # 打印该epoch训练信息
@@ -226,7 +231,6 @@ class Train():
         plt.legend()
         plt.show()
         
-
     def predict(self, inputs):
         self.model.eval()
         inputs = inputs.to(DEVICE)
@@ -248,8 +252,9 @@ def main():
     T = Train(hyperparams=HyperParams, model=model, optimizer=optimizer, loss_func=loss_func)
     if load_model:
         T.load_state()  # 加载之前训练好的模型
-    #T.train_model()
-    #T.plot_loss()
+    else:
+        T.train_model() # 再训练一次
+    T.plot_loss()
     T.show_example()
 
 
