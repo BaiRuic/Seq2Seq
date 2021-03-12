@@ -1,0 +1,908 @@
+2021-03-11 14:06:50--my_logging.py|-- prepare data
+2021-03-11 14:06:50--my_logging.py|-- standardize data
+2021-03-11 14:06:50--my_logging.py|-- split data into input and output
+2021-03-11 14:06:50--my_logging.py|-- inputs.shape:(26295, 14)
+2021-03-11 14:06:50--my_logging.py|-- outputs.shape:(26295, 3)
+2021-03-11 14:06:50--my_logging.py|-- train:
+2021-03-11 14:06:50--my_logging.py|-- train_ip.shape:(21036, 7, 2)
+2021-03-11 14:06:50--my_logging.py|-- train_op.shape:(21036, 3)
+2021-03-11 14:06:50--my_logging.py|-- valid:
+2021-03-11 14:06:50--my_logging.py|-- valid_ip.shape:(2629, 7, 2)
+2021-03-11 14:06:50--my_logging.py|-- valid_op.shape:(2629, 3)
+2021-03-11 14:06:50--my_logging.py|-- test:
+2021-03-11 14:06:50--my_logging.py|-- test_ip.shape:(2630, 7, 2)
+2021-03-11 14:06:50--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 14:06:50--my_logging.py|-- train_ip 前两个样本[[[0.22157165 0.4202454 ]
+  [0.17842835 0.42638037]
+  [0.14329738 0.40184049]
+  [0.13035439 0.41104294]
+  [0.13066256 0.4202454 ]
+  [0.14607088 0.41411043]
+  [0.17904468 0.40184049]]
+
+ [[0.17842835 0.42638037]
+  [0.14329738 0.40184049]
+  [0.13035439 0.41104294]
+  [0.13066256 0.4202454 ]
+  [0.14607088 0.41411043]
+  [0.17904468 0.40184049]
+  [0.22804314 0.39263804]]
+
+ [[0.14329738 0.40184049]
+  [0.13035439 0.41104294]
+  [0.13066256 0.4202454 ]
+  [0.14607088 0.41411043]
+  [0.17904468 0.40184049]
+  [0.22804314 0.39263804]
+  [0.28875193 0.39263804]]]
+2021-03-11 14:06:50--my_logging.py|-- input_main:(21036, 7)
+2021-03-11 14:06:50--my_logging.py|-- input_main:[[[0.22157165]
+  [0.17842835]
+  [0.14329738]
+  [0.13035439]
+  [0.13066256]
+  [0.14607088]
+  [0.17904468]]
+
+ [[0.17842835]
+  [0.14329738]
+  [0.13035439]
+  [0.13066256]
+  [0.14607088]
+  [0.17904468]
+  [0.22804314]]
+
+ [[0.14329738]
+  [0.13035439]
+  [0.13066256]
+  [0.14607088]
+  [0.17904468]
+  [0.22804314]
+  [0.28875193]]]
+2021-03-11 14:20:57--my_logging.py|-- prepare data
+2021-03-11 14:20:57--my_logging.py|-- standardize data
+2021-03-11 14:20:57--my_logging.py|-- split data into input and output
+2021-03-11 14:20:57--my_logging.py|-- inputs.shape:(26295, 14)
+2021-03-11 14:20:57--my_logging.py|-- outputs.shape:(26295, 3)
+2021-03-11 14:20:57--my_logging.py|-- train:
+2021-03-11 14:20:57--my_logging.py|-- train_ip.shape:(21036, 7, 2)
+2021-03-11 14:20:57--my_logging.py|-- train_op.shape:(21036, 3)
+2021-03-11 14:20:57--my_logging.py|-- valid:
+2021-03-11 14:20:57--my_logging.py|-- valid_ip.shape:(2629, 7, 2)
+2021-03-11 14:20:57--my_logging.py|-- valid_op.shape:(2629, 3)
+2021-03-11 14:20:57--my_logging.py|-- test:
+2021-03-11 14:20:57--my_logging.py|-- test_ip.shape:(2630, 7, 2)
+2021-03-11 14:20:57--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 14:20:57--my_logging.py|-- train_ip 前两个样本[[[0.22157165 0.4202454 ]
+  [0.17842835 0.42638037]
+  [0.14329738 0.40184049]
+  [0.13035439 0.41104294]
+  [0.13066256 0.4202454 ]
+  [0.14607088 0.41411043]
+  [0.17904468 0.40184049]]
+
+ [[0.17842835 0.42638037]
+  [0.14329738 0.40184049]
+  [0.13035439 0.41104294]
+  [0.13066256 0.4202454 ]
+  [0.14607088 0.41411043]
+  [0.17904468 0.40184049]
+  [0.22804314 0.39263804]]
+
+ [[0.14329738 0.40184049]
+  [0.13035439 0.41104294]
+  [0.13066256 0.4202454 ]
+  [0.14607088 0.41411043]
+  [0.17904468 0.40184049]
+  [0.22804314 0.39263804]
+  [0.28875193 0.39263804]]]
+2021-03-11 14:20:57--my_logging.py|-- input_main:(21036, 7)
+2021-03-11 14:20:57--my_logging.py|-- input_main:[[[0.22157165]
+  [0.17842835]
+  [0.14329738]
+  [0.13035439]
+  [0.13066256]
+  [0.14607088]
+  [0.17904468]]
+
+ [[0.17842835]
+  [0.14329738]
+  [0.13035439]
+  [0.13066256]
+  [0.14607088]
+  [0.17904468]
+  [0.22804314]]
+
+ [[0.14329738]
+  [0.13035439]
+  [0.13066256]
+  [0.14607088]
+  [0.17904468]
+  [0.22804314]
+  [0.28875193]]]
+2021-03-11 14:21:05--my_logging.py|-- prepare data
+2021-03-11 14:21:05--my_logging.py|-- standardize data
+2021-03-11 14:21:05--my_logging.py|-- split data into input and output
+2021-03-11 14:21:05--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 14:21:05--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 14:21:05--my_logging.py|-- train:
+2021-03-11 14:21:05--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 14:21:05--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 14:21:05--my_logging.py|-- valid:
+2021-03-11 14:21:05--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 14:21:05--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 14:21:05--my_logging.py|-- test:
+2021-03-11 14:21:05--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 14:21:05--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 14:21:50--my_logging.py|-- prepare data
+2021-03-11 14:21:50--my_logging.py|-- standardize data
+2021-03-11 14:21:50--my_logging.py|-- split data into input and output
+2021-03-11 14:21:50--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 14:21:50--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 14:21:50--my_logging.py|-- train:
+2021-03-11 14:21:50--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 14:21:50--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 14:21:50--my_logging.py|-- valid:
+2021-03-11 14:21:50--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 14:21:50--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 14:21:50--my_logging.py|-- test:
+2021-03-11 14:21:50--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 14:21:50--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:44:02--my_logging.py|-- prepare data
+2021-03-11 15:44:02--my_logging.py|-- standardize data
+2021-03-11 15:44:02--my_logging.py|-- split data into input and output
+2021-03-11 15:44:02--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:44:02--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:44:02--my_logging.py|-- train:
+2021-03-11 15:44:02--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:44:02--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:44:02--my_logging.py|-- valid:
+2021-03-11 15:44:02--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:44:02--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:44:02--my_logging.py|-- test:
+2021-03-11 15:44:02--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:44:02--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:44:06--my_logging.py|-- prepare data
+2021-03-11 15:44:06--my_logging.py|-- standardize data
+2021-03-11 15:44:06--my_logging.py|-- split data into input and output
+2021-03-11 15:44:06--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:44:06--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:44:06--my_logging.py|-- train:
+2021-03-11 15:44:06--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:44:06--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:44:06--my_logging.py|-- valid:
+2021-03-11 15:44:06--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:44:06--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:44:06--my_logging.py|-- test:
+2021-03-11 15:44:06--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:44:06--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:47:13--my_logging.py|-- prepare data
+2021-03-11 15:47:13--my_logging.py|-- standardize data
+2021-03-11 15:47:13--my_logging.py|-- split data into input and output
+2021-03-11 15:47:13--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:47:13--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:47:13--my_logging.py|-- train:
+2021-03-11 15:47:13--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:47:13--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:47:13--my_logging.py|-- valid:
+2021-03-11 15:47:13--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:47:13--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:47:13--my_logging.py|-- test:
+2021-03-11 15:47:13--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:47:13--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:47:15--my_logging.py|-- prepare data
+2021-03-11 15:47:15--my_logging.py|-- standardize data
+2021-03-11 15:47:15--my_logging.py|-- split data into input and output
+2021-03-11 15:47:15--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:47:15--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:47:15--my_logging.py|-- train:
+2021-03-11 15:47:15--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:47:15--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:47:15--my_logging.py|-- valid:
+2021-03-11 15:47:15--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:47:15--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:47:15--my_logging.py|-- test:
+2021-03-11 15:47:15--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:47:15--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:49:21--my_logging.py|-- prepare data
+2021-03-11 15:49:21--my_logging.py|-- standardize data
+2021-03-11 15:49:21--my_logging.py|-- split data into input and output
+2021-03-11 15:49:21--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:49:21--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:49:21--my_logging.py|-- train:
+2021-03-11 15:49:21--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:49:21--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:49:21--my_logging.py|-- valid:
+2021-03-11 15:49:21--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:49:21--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:49:21--my_logging.py|-- test:
+2021-03-11 15:49:21--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:49:21--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:49:23--my_logging.py|-- prepare data
+2021-03-11 15:49:23--my_logging.py|-- standardize data
+2021-03-11 15:49:23--my_logging.py|-- split data into input and output
+2021-03-11 15:49:23--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:49:23--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:49:23--my_logging.py|-- train:
+2021-03-11 15:49:23--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:49:23--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:49:23--my_logging.py|-- valid:
+2021-03-11 15:49:23--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:49:23--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:49:23--my_logging.py|-- test:
+2021-03-11 15:49:23--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:49:23--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:55:55--my_logging.py|-- prepare data
+2021-03-11 15:55:55--my_logging.py|-- standardize data
+2021-03-11 15:55:55--my_logging.py|-- split data into input and output
+2021-03-11 15:55:55--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:55:55--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:55:55--my_logging.py|-- train:
+2021-03-11 15:55:55--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:55:55--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:55:55--my_logging.py|-- valid:
+2021-03-11 15:55:55--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:55:55--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:55:55--my_logging.py|-- test:
+2021-03-11 15:55:55--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:55:55--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:56:32--my_logging.py|-- prepare data
+2021-03-11 15:56:32--my_logging.py|-- standardize data
+2021-03-11 15:56:32--my_logging.py|-- split data into input and output
+2021-03-11 15:56:32--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 15:56:32--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 15:56:32--my_logging.py|-- train:
+2021-03-11 15:56:32--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 15:56:32--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 15:56:32--my_logging.py|-- valid:
+2021-03-11 15:56:32--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 15:56:32--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 15:56:32--my_logging.py|-- test:
+2021-03-11 15:56:32--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 15:56:32--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 15:56:34--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:35--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:37--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:38--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:40--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:41--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:43--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:44--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:46--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:47--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:49--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:50--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:52--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:54--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:55--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:57--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:56:58--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:00--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:01--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:03--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:04--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:06--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:07--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:09--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:10--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:12--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:13--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:15--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:16--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:18--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:19--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:21--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:22--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:24--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:25--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:27--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:28--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:29--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:31--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:32--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:34--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:35--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:37--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:38--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:40--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:41--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:43--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:44--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:46--my_logging.py|-- Saving model and optimizer state
+2021-03-11 15:57:47--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:15:53--my_logging.py|-- prepare data
+2021-03-11 16:15:53--my_logging.py|-- standardize data
+2021-03-11 16:15:53--my_logging.py|-- split data into input and output
+2021-03-11 16:15:53--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 16:15:53--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 16:15:53--my_logging.py|-- train:
+2021-03-11 16:15:53--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 16:15:53--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 16:15:53--my_logging.py|-- valid:
+2021-03-11 16:15:53--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:15:53--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 16:15:53--my_logging.py|-- test:
+2021-03-11 16:15:53--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:15:53--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 16:15:55--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:15:57--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:15:58--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:15:59--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:16:01--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:16:52--my_logging.py|-- prepare data
+2021-03-11 16:16:52--my_logging.py|-- standardize data
+2021-03-11 16:16:52--my_logging.py|-- split data into input and output
+2021-03-11 16:16:52--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 16:16:52--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 16:16:52--my_logging.py|-- train:
+2021-03-11 16:16:52--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 16:16:52--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 16:16:52--my_logging.py|-- valid:
+2021-03-11 16:16:52--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:16:52--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 16:16:52--my_logging.py|-- test:
+2021-03-11 16:16:52--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:16:52--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 16:16:54--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:16:55--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:16:57--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:16:58--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:16:59--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:17:30--my_logging.py|-- prepare data
+2021-03-11 16:17:30--my_logging.py|-- standardize data
+2021-03-11 16:17:30--my_logging.py|-- split data into input and output
+2021-03-11 16:17:30--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 16:17:30--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 16:17:30--my_logging.py|-- train:
+2021-03-11 16:17:30--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 16:17:30--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 16:17:30--my_logging.py|-- valid:
+2021-03-11 16:17:30--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:17:30--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 16:17:30--my_logging.py|-- test:
+2021-03-11 16:17:30--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:17:30--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 16:17:32--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:17:33--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:17:35--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:17:36--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:17:38--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:18:48--my_logging.py|-- prepare data
+2021-03-11 16:18:48--my_logging.py|-- standardize data
+2021-03-11 16:18:48--my_logging.py|-- split data into input and output
+2021-03-11 16:18:48--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 16:18:48--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 16:18:48--my_logging.py|-- train:
+2021-03-11 16:18:48--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 16:18:48--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 16:18:48--my_logging.py|-- valid:
+2021-03-11 16:18:48--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:18:48--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 16:18:48--my_logging.py|-- test:
+2021-03-11 16:18:48--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:18:48--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 16:18:50--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:18:51--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:18:53--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:18:54--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:18:56--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:21--my_logging.py|-- prepare data
+2021-03-11 16:19:21--my_logging.py|-- standardize data
+2021-03-11 16:19:21--my_logging.py|-- split data into input and output
+2021-03-11 16:19:21--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 16:19:21--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 16:19:21--my_logging.py|-- train:
+2021-03-11 16:19:21--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 16:19:21--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 16:19:21--my_logging.py|-- valid:
+2021-03-11 16:19:21--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:19:21--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 16:19:21--my_logging.py|-- test:
+2021-03-11 16:19:21--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:19:21--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 16:19:23--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:24--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:26--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:27--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:29--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:30--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:32--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:33--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:35--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:36--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:38--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:39--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:41--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:42--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:44--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:45--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:47--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:48--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:49--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:51--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:52--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:54--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:55--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:57--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:19:58--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:00--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:01--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:03--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:04--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:05--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:07--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:08--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:10--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:14--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:16--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:17--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:18--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:20--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:21--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:23--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:24--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:26--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:27--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:29--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:30--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:32--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:33--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:20:35--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:07--my_logging.py|-- prepare data
+2021-03-11 16:21:07--my_logging.py|-- standardize data
+2021-03-11 16:21:07--my_logging.py|-- split data into input and output
+2021-03-11 16:21:07--my_logging.py|-- inputs.shape:(26288, 28)
+2021-03-11 16:21:07--my_logging.py|-- outputs.shape:(26288, 3)
+2021-03-11 16:21:07--my_logging.py|-- train:
+2021-03-11 16:21:07--my_logging.py|-- train_ip.shape:(21030, 14, 2)
+2021-03-11 16:21:07--my_logging.py|-- train_op.shape:(21030, 3)
+2021-03-11 16:21:07--my_logging.py|-- valid:
+2021-03-11 16:21:07--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:21:07--my_logging.py|-- valid_op.shape:(2628, 3)
+2021-03-11 16:21:07--my_logging.py|-- test:
+2021-03-11 16:21:07--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:21:07--my_logging.py|-- test_op.shape:(2630, 3)
+2021-03-11 16:21:08--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:10--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:11--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:13--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:14--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:16--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:17--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:19--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:20--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:22--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:23--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:24--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:26--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:27--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:29--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:30--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:32--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:33--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:35--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:36--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:38--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:43--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:45--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:46--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:48--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:49--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:51--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:52--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:54--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:55--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:56--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:58--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:21:59--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:01--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:02--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:04--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:05--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:07--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:08--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:09--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:11--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:12--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:14--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:15--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:17--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:18--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:22:20--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:29:54--my_logging.py|-- prepare data
+2021-03-11 16:29:54--my_logging.py|-- standardize data
+2021-03-11 16:29:54--my_logging.py|-- split data into input and output
+2021-03-11 16:29:54--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 16:29:54--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 16:29:54--my_logging.py|-- train:
+2021-03-11 16:29:54--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 16:29:54--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 16:29:54--my_logging.py|-- valid:
+2021-03-11 16:29:54--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:29:54--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 16:29:54--my_logging.py|-- test:
+2021-03-11 16:29:54--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:29:54--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 16:29:56--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:29:58--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:29:59--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:01--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:02--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:04--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:06--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:08--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:09--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:11--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:12--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:14--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:16--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:18--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:19--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:21--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:23--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:24--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:26--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:28--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:29--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:31--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:33--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:34--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:36--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:38--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:39--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:41--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:43--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:44--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:46--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:48--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:49--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:51--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:52--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:54--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:56--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:57--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:30:59--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:01--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:02--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:04--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:06--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:07--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:09--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:10--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:12--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:14--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:15--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:31:17--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:26--my_logging.py|-- prepare data
+2021-03-11 16:36:26--my_logging.py|-- standardize data
+2021-03-11 16:36:26--my_logging.py|-- split data into input and output
+2021-03-11 16:36:26--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 16:36:26--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 16:36:26--my_logging.py|-- train:
+2021-03-11 16:36:26--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 16:36:26--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 16:36:26--my_logging.py|-- valid:
+2021-03-11 16:36:26--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 16:36:26--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 16:36:26--my_logging.py|-- test:
+2021-03-11 16:36:26--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 16:36:26--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 16:36:26--my_logging.py|-- Loading model and optimizer state
+2021-03-11 16:36:28--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:29--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:31--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:32--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:34--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:36--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:37--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:39--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:41--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:42--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:44--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:45--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:47--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:49--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:50--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:52--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:53--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:55--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:57--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:36:58--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:00--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:02--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:03--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:05--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:06--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:08--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:10--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:11--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:13--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:15--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:16--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:18--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:19--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:21--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:23--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:24--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:26--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:28--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:29--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:31--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:32--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:34--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:36--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:37--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:39--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:40--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:42--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:44--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:45--my_logging.py|-- Saving model and optimizer state
+2021-03-11 16:37:47--my_logging.py|-- Saving model and optimizer state
+2021-03-11 20:26:11--my_logging.py|-- prepare data
+2021-03-11 20:26:11--my_logging.py|-- standardize data
+2021-03-11 20:26:11--my_logging.py|-- split data into input and output
+2021-03-11 20:26:11--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 20:26:11--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 20:26:11--my_logging.py|-- train:
+2021-03-11 20:26:11--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 20:26:11--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 20:26:11--my_logging.py|-- valid:
+2021-03-11 20:26:11--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 20:26:11--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 20:26:11--my_logging.py|-- test:
+2021-03-11 20:26:11--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 20:26:11--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 20:26:11--my_logging.py|-- Loading model and optimizer state
+2021-03-11 20:26:44--my_logging.py|-- prepare data
+2021-03-11 20:26:44--my_logging.py|-- standardize data
+2021-03-11 20:26:44--my_logging.py|-- split data into input and output
+2021-03-11 20:26:44--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 20:26:44--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 20:26:44--my_logging.py|-- train:
+2021-03-11 20:26:44--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 20:26:44--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 20:26:44--my_logging.py|-- valid:
+2021-03-11 20:26:44--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 20:26:44--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 20:26:44--my_logging.py|-- test:
+2021-03-11 20:26:44--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 20:26:44--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 20:26:44--my_logging.py|-- Loading model and optimizer state
+2021-03-11 20:27:13--my_logging.py|-- prepare data
+2021-03-11 20:27:13--my_logging.py|-- standardize data
+2021-03-11 20:27:13--my_logging.py|-- split data into input and output
+2021-03-11 20:27:13--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 20:27:13--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 20:27:13--my_logging.py|-- train:
+2021-03-11 20:27:13--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 20:27:13--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 20:27:13--my_logging.py|-- valid:
+2021-03-11 20:27:13--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 20:27:13--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 20:27:13--my_logging.py|-- test:
+2021-03-11 20:27:13--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 20:27:13--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 20:27:13--my_logging.py|-- Loading model and optimizer state
+2021-03-11 20:29:09--my_logging.py|-- prepare data
+2021-03-11 20:29:09--my_logging.py|-- standardize data
+2021-03-11 20:29:09--my_logging.py|-- split data into input and output
+2021-03-11 20:29:09--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 20:29:09--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 20:29:09--my_logging.py|-- train:
+2021-03-11 20:29:09--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 20:29:09--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 20:29:09--my_logging.py|-- valid:
+2021-03-11 20:29:09--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 20:29:09--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 20:29:09--my_logging.py|-- test:
+2021-03-11 20:29:09--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 20:29:09--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 20:29:09--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:02:31--my_logging.py|-- prepare data
+2021-03-11 21:02:31--my_logging.py|-- standardize data
+2021-03-11 21:02:31--my_logging.py|-- split data into input and output
+2021-03-11 21:02:31--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:02:31--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:02:31--my_logging.py|-- train:
+2021-03-11 21:02:31--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:02:31--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:02:31--my_logging.py|-- valid:
+2021-03-11 21:02:31--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:02:31--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:02:31--my_logging.py|-- test:
+2021-03-11 21:02:31--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:02:31--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:02:31--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:02:58--my_logging.py|-- prepare data
+2021-03-11 21:02:58--my_logging.py|-- standardize data
+2021-03-11 21:02:58--my_logging.py|-- split data into input and output
+2021-03-11 21:02:58--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:02:58--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:02:58--my_logging.py|-- train:
+2021-03-11 21:02:58--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:02:58--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:02:58--my_logging.py|-- valid:
+2021-03-11 21:02:58--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:02:58--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:02:58--my_logging.py|-- test:
+2021-03-11 21:02:58--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:02:58--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:02:58--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:03:24--my_logging.py|-- prepare data
+2021-03-11 21:03:24--my_logging.py|-- standardize data
+2021-03-11 21:03:24--my_logging.py|-- split data into input and output
+2021-03-11 21:03:24--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:03:24--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:03:24--my_logging.py|-- train:
+2021-03-11 21:03:24--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:03:24--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:03:24--my_logging.py|-- valid:
+2021-03-11 21:03:24--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:03:24--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:03:24--my_logging.py|-- test:
+2021-03-11 21:03:24--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:03:24--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:03:24--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:04:47--my_logging.py|-- prepare data
+2021-03-11 21:04:47--my_logging.py|-- standardize data
+2021-03-11 21:04:47--my_logging.py|-- split data into input and output
+2021-03-11 21:04:47--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:04:47--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:04:47--my_logging.py|-- train:
+2021-03-11 21:04:47--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:04:47--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:04:47--my_logging.py|-- valid:
+2021-03-11 21:04:47--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:04:47--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:04:47--my_logging.py|-- test:
+2021-03-11 21:04:47--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:04:47--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:04:47--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:04:47--my_logging.py|-- inputs:torch.Size([1, 14])
+2021-03-11 21:04:47--my_logging.py|-- target:torch.Size([4])
+2021-03-11 21:05:41--my_logging.py|-- prepare data
+2021-03-11 21:05:41--my_logging.py|-- standardize data
+2021-03-11 21:05:41--my_logging.py|-- split data into input and output
+2021-03-11 21:05:41--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:05:41--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:05:41--my_logging.py|-- train:
+2021-03-11 21:05:41--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:05:41--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:05:41--my_logging.py|-- valid:
+2021-03-11 21:05:41--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:05:41--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:05:41--my_logging.py|-- test:
+2021-03-11 21:05:41--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:05:41--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:05:41--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:05:42--my_logging.py|-- inputs:torch.Size([1, 14])
+2021-03-11 21:05:42--my_logging.py|-- target:torch.Size([4])
+2021-03-11 21:05:42--my_logging.py|-- inputs_targets:torch.Size([18])
+2021-03-11 21:06:56--my_logging.py|-- prepare data
+2021-03-11 21:06:56--my_logging.py|-- standardize data
+2021-03-11 21:06:56--my_logging.py|-- split data into input and output
+2021-03-11 21:06:56--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:06:56--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:06:56--my_logging.py|-- train:
+2021-03-11 21:06:56--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:06:56--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:06:56--my_logging.py|-- valid:
+2021-03-11 21:06:56--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:06:56--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:06:56--my_logging.py|-- test:
+2021-03-11 21:06:56--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:06:56--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:06:56--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:06:57--my_logging.py|-- inputs:torch.Size([1, 14])
+2021-03-11 21:06:57--my_logging.py|-- target:torch.Size([4])
+2021-03-11 21:06:57--my_logging.py|-- inputs_targets:torch.Size([18])
+2021-03-11 21:06:57--my_logging.py|-- inputs_pred:torch.Size([18])
+2021-03-11 21:07:21--my_logging.py|-- prepare data
+2021-03-11 21:07:21--my_logging.py|-- standardize data
+2021-03-11 21:07:21--my_logging.py|-- split data into input and output
+2021-03-11 21:07:21--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:07:21--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:07:21--my_logging.py|-- train:
+2021-03-11 21:07:21--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:07:21--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:07:21--my_logging.py|-- valid:
+2021-03-11 21:07:21--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:07:21--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:07:21--my_logging.py|-- test:
+2021-03-11 21:07:21--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:07:21--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:07:21--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:07:22--my_logging.py|-- inputs:torch.Size([1, 14])
+2021-03-11 21:07:22--my_logging.py|-- target:torch.Size([4])
+2021-03-11 21:07:22--my_logging.py|-- inputs_targets:torch.Size([18])
+2021-03-11 21:07:22--my_logging.py|-- inputs_pred:torch.Size([18])
+2021-03-11 21:10:39--my_logging.py|-- prepare data
+2021-03-11 21:10:39--my_logging.py|-- standardize data
+2021-03-11 21:10:39--my_logging.py|-- split data into input and output
+2021-03-11 21:10:39--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:10:39--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:10:39--my_logging.py|-- train:
+2021-03-11 21:10:39--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:10:39--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:10:39--my_logging.py|-- valid:
+2021-03-11 21:10:39--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:10:39--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:10:39--my_logging.py|-- test:
+2021-03-11 21:10:39--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:10:39--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:10:39--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:11:06--my_logging.py|-- prepare data
+2021-03-11 21:11:06--my_logging.py|-- standardize data
+2021-03-11 21:11:06--my_logging.py|-- split data into input and output
+2021-03-11 21:11:06--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:11:06--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:11:06--my_logging.py|-- train:
+2021-03-11 21:11:06--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:11:06--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:11:06--my_logging.py|-- valid:
+2021-03-11 21:11:06--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:11:06--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:11:06--my_logging.py|-- test:
+2021-03-11 21:11:06--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:11:06--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:11:06--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:12:13--my_logging.py|-- prepare data
+2021-03-11 21:12:13--my_logging.py|-- standardize data
+2021-03-11 21:12:13--my_logging.py|-- split data into input and output
+2021-03-11 21:12:13--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:12:13--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:12:13--my_logging.py|-- train:
+2021-03-11 21:12:13--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:12:13--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:12:13--my_logging.py|-- valid:
+2021-03-11 21:12:13--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:12:13--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:12:13--my_logging.py|-- test:
+2021-03-11 21:12:13--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:12:13--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:12:13--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:14:33--my_logging.py|-- prepare data
+2021-03-11 21:14:33--my_logging.py|-- standardize data
+2021-03-11 21:14:33--my_logging.py|-- split data into input and output
+2021-03-11 21:14:33--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:14:33--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:14:33--my_logging.py|-- train:
+2021-03-11 21:14:33--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:14:33--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:14:33--my_logging.py|-- valid:
+2021-03-11 21:14:33--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:14:33--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:14:33--my_logging.py|-- test:
+2021-03-11 21:14:33--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:14:33--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:14:33--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:17:07--my_logging.py|-- prepare data
+2021-03-11 21:17:07--my_logging.py|-- standardize data
+2021-03-11 21:17:07--my_logging.py|-- split data into input and output
+2021-03-11 21:17:07--my_logging.py|-- inputs.shape:(26287, 28)
+2021-03-11 21:17:07--my_logging.py|-- outputs.shape:(26287, 4)
+2021-03-11 21:17:07--my_logging.py|-- train:
+2021-03-11 21:17:07--my_logging.py|-- train_ip.shape:(21029, 14, 2)
+2021-03-11 21:17:07--my_logging.py|-- train_op.shape:(21029, 4)
+2021-03-11 21:17:07--my_logging.py|-- valid:
+2021-03-11 21:17:07--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:17:07--my_logging.py|-- valid_op.shape:(2628, 4)
+2021-03-11 21:17:07--my_logging.py|-- test:
+2021-03-11 21:17:07--my_logging.py|-- test_ip.shape:(2630, 14, 2)
+2021-03-11 21:17:07--my_logging.py|-- test_op.shape:(2630, 4)
+2021-03-11 21:17:07--my_logging.py|-- Loading model and optimizer state
+2021-03-11 21:18:23--my_logging.py|-- prepare data
+2021-03-11 21:18:23--my_logging.py|-- standardize data
+2021-03-11 21:18:23--my_logging.py|-- split data into input and output
+2021-03-11 21:18:23--my_logging.py|-- inputs.shape:(26284, 28)
+2021-03-11 21:18:23--my_logging.py|-- outputs.shape:(26284, 7)
+2021-03-11 21:18:23--my_logging.py|-- train:
+2021-03-11 21:18:23--my_logging.py|-- train_ip.shape:(21027, 14, 2)
+2021-03-11 21:18:23--my_logging.py|-- train_op.shape:(21027, 7)
+2021-03-11 21:18:23--my_logging.py|-- valid:
+2021-03-11 21:18:23--my_logging.py|-- valid_ip.shape:(2628, 14, 2)
+2021-03-11 21:18:23--my_logging.py|-- valid_op.shape:(2628, 7)
+2021-03-11 21:18:23--my_logging.py|-- test:
+2021-03-11 21:18:23--my_logging.py|-- test_ip.shape:(2629, 14, 2)
+2021-03-11 21:18:23--my_logging.py|-- test_op.shape:(2629, 7)
+2021-03-11 21:18:23--my_logging.py|-- Loading model and optimizer state

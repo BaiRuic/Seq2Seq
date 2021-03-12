@@ -1,10 +1,15 @@
 import torch 
 import torch.nn as nn
+import sys
+import numpy as np
+import random
+import utils.my_logging as my_logging
 
+my_log  = my_logging.My_Logging(logname="log.log")
 class Encoder(nn.Module):
     ''' Encodes time-series sequence '''
 
-    def __init__(self, input_size:int, hidden_size:int, dropout=0.2):
+    def __init__(self, input_size:int, hidden_size:int):
         '''
         param:
             input_size:    the number of features in the input X
@@ -16,8 +21,7 @@ class Encoder(nn.Module):
                             hidden_size=hidden_size, 
                             num_layers=1, 
                             bias=True, 
-                            batch_first=True, 
-                            dropout=dropout)
+                            batch_first=True,)
     def forward(self, inputs):
         '''
         params:
@@ -28,7 +32,7 @@ class Encoder(nn.Module):
             cell    shape:[1, batch_size, hidden_size]
                     作为编码器的输出，即LSTM的最后一个 状态 和 隐藏态
         '''
-        outputs, (hidden, cell) = self.lstm(x)
+        outputs, (hidden, cell) = self.lstm(inputs)
         return hidden, cell
 
 class Decoder(nn.Module):
@@ -49,12 +53,13 @@ class Decoder(nn.Module):
                             hidden_size=hidden_size,
                             num_layers=1,
                             bias=True,
-                            batch_first=True,
-                            dropout=dropout)
+                            batch_first=True)
 
         self.fc = nn.Linear(in_features=self.hidden_size, 
                             out_features=self.output_size, 
                             bias=True)
+        
+        self.dropout = nn.Dropout(dropout)
 
     def forward(self, inputs, prev_hidden, prev_cell):
         '''
@@ -67,78 +72,92 @@ class Decoder(nn.Module):
             prediction  shape: [batch_size, seq_len=1, output_size=1]
             hidden      shape: [num_layers * rnn_directions=1, batch, hidden_size]
             cell        shape: [num_layers * rnn_directions=1, batch, hidden_size]
-
         '''
        
         batch_size = inputs.shape[0]
         # outputs [batch, seq_len=1, hidden_size]
+        # hidden [1, batch_size, hidden_size] 所有 torch.equal(output.squeeze(1), hidden.squeeze(0) 是True
         outputs, (hidden, cell) = self.lstm(inputs,(prev_hidden, prev_cell))
+        
         # prediction [batch, seq_len=1, outputs_size=1]
         prediction = self.fc(outputs.view(batch_size, self.hidden_size)).unsqueeze(dim=1)
-       
         return prediction, hidden, cell 
 
-class Seq2Seq(nn.Module):
+class RNN_Seq2Seq(nn.Module):
     ''' train LSTM encoder-decoder and make predictions '''
-    def __init__(self, input_size, hidden_size):
-        super(Seq2Seq, self).__init__()
+    def __init__(self, input_size, hidden_size, predict_seqlen):
+        '''
+        input_size: 输出特征数
+        hidden_size: 隐藏层的特征数
+        predict_seqlen: 需要预测序列的长度
+        '''
+        super(RNN_Seq2Seq, self).__init__()
 
         self.input_size = input_size
         self.hidden_size = hidden_size
+        self.predict_seqlen = predict_seqlen
 
         self.encoder = Encoder(input_size=input_size,hidden_size=self.hidden_size)
         self.decoder = Decoder(input_size=1, hidden_size=self.hidden_size)
 
-    def forward(self,  source, target):
+    def forward(self, inputs):
         '''
-        source [batch_size, seq_len, feature] 输入到编码器的数据
-        target [batch_size, seq_len, 1] 和解码器输出计算loss的, 1是负载预测，只有一个输出
-               target[:,0,:]为输出到解码器第一时间步的数据,所以应该和source最后一个时间步数据相关
+        params:
+            inputs [batch_size, seq_len, feature] 输入到编码器的数据
+        return:
+            outputs:[batch_size, predict_seqlen, 1] # 最后的1表示预测输出的维度为1
         '''
-        batch_size = source.shape[0]
-        target_seq_len = target.shape[1]
+        batch_size = inputs.shape[0]
         
-        # outputs 存放最后解码器输出
-        outputs = torch.zeros_like(target)
+        # 编码
+        hidden, cell = self.encoder(inputs)
 
-        # Encodering
-        hidden, cell = self.encoder(source)
+        # 解码器初始输入：为inputs最后一个时间步的待预测值
+        x = inputs[:,-1,0].unsqueeze(dim=1).unsqueeze(dim=2)
+
+        # 存放解码器 的每一个时间步 的输出
+        outputs = []
+
+        # Decodeing
+        for i in range(self.predict_seqlen): 
+            pred, hidden, cell = self.decoder(x,hidden, cell)
+            x = pred
+            outputs.append(pred)   # pred[batch_size, seq_len=1, 1] 每次存进去一个时间步的，最后对时间轴拼接
         
-        # 解码器初始输出x 取Target第0个时间步
-        x = target[:, 0, :].unsqueeze(dim=1)
-        
-        # Decodering
-        for t in range(1, target_seq_len):
-            output, hidden, cell = self.decoder(x, hidden, cell)
-            outputs[:,t,:] = output.squeeze(dim=1)
-            x = output
+        # 对时间维度拼接
+        outputs = torch.cat(outputs,dim=1)
 
         return outputs
+            
+
+def setup_seed(seed):
+     torch.manual_seed(seed)
+     torch.cuda.manual_seed_all(seed)
+     np.random.seed(seed)
+     random.seed(seed)
+     torch.backends.cudnn.deterministic = True
+
+
+
 
 if __name__ == '__main__':
-    batch_size = 64
+    setup_seed(20) # 设置随机种子
+    batch_size = 6128
     seq_len = 14
-    feature = 2
-    pred_seq_len = 5
+    feature = 4
+    pred_seq_len = 6
     x = torch.rand((batch_size, seq_len, feature))
     y = torch.rand(batch_size, pred_seq_len, 1)
+    '''
+    # encoder test
+    model = Encoder(input_size=feature,hidden_size=5)
+    hidden, cell = model(x)
+    print(f"hidden.shape:{hidden.shape}")
     
-    model = Seq2Seq(input_size=2,hidden_size=5)
-    
-   
-    outputs = model(x,y)
+    '''
+    # seq2seq test
+    model = RNN_Seq2Seq(input_size=feature,hidden_size=5,predict_seqlen=pred_seq_len)
+    outputs = model(x)
     print(outputs.shape)
-    '''
     
-    pre_hidd, pre_cell = model_en(x)
-    print('*' * 5 + 'encoder' + '*' *5)
-    print(pre_hidd.shape, pre_cell.shape)
-
-    print('*' * 5 + 'decoder' + '*' *5)
-    model_de = Decoder(1,5)
-    pred, hidden, cell = model_de(y, pre_hidd, pre_cell)
-
-    print(pred.shape,hidden.shape, cell.shape)
-    '''
-
     
