@@ -238,8 +238,6 @@ class Train():
             output = self.model(inputs) # output [batch_size, predict_seqlen, 1]
         return output
 
-
-
 def main():
     # 是否加载模型
     load_model = True
@@ -256,7 +254,6 @@ def main():
         T.train_model() # 再训练一次
     T.plot_loss()
     T.show_example()
-
 
 if __name__ == "__main__":
     main()
